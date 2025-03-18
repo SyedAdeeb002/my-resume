@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume - Syed Adeeb</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family:"Times New Roman", Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #E5B898;
+            padding: 40px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            display: grid;
+            grid-template-columns: 30% 70%;
+            gap: 20px;
+            border-radius: 10px;
+        }
+        .sidebar {
+            background: linear-gradient(135deg, #B5C7EB, #FAF6CF);
+            color: #000000;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .sidebar h2 {
+            color: #000000;
+            margin-bottom: 5px;
+        }
+     	 .sidebar h2, .main-content h2 {
+     	 font-family: "Times New Roman", Times, serif;
+     	 font-weight: bold;
+     	 }
+	.sidebar ul li, .main-content p, .hidden p {
+    	font-family: "Times New Roman", Times, serif;}
+
+
+
+
+        .sidebar ul li {
+            background: #B5C7EZ;
+            padding: 2px;
+            margin: 5px 0;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+        }
+        .sidebar ul li:hover {
+            background: #E5B898;
+            transform: scale(1.05);
+        }
+        .main-content {
+            background: #F2DCC8;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .main-content h2 {
+            color: #000000;
+            border-bottom: 2px solid #1abc9c;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .hidden {
+            display: none;
+            background: #dfe6e9;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+        }
+        .hidden p {
+            font-size: 14px;
+            color: #2c3e50;
+        }
+    </style>
+    <script>
+        function toggleDetails(id) {
+            var element = document.getElementById(id);
+            element.classList.toggle('hidden');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+           <!-- <img src="image/image1.jpg" width="150" height="150"> -->
+            <h1>SYED ADEEB</h1>
+            <p>ENGINEER (TRAINEE)</p>
+            <h2>CONTACT</h2>
+            <p>📞 9505768114</p>
+            <p>✉️ <a href="mailto:adeebsyedsyed@gmail.com" style="color: #000000;">adeebsyedsyed@gmail.com</a></p>
+<p>🔗 <a href="https://www.linkedin.com/in/syed-adeeb-ur-rahiman-602017283/" target="_blank">LinkedIn</a></p>
+
+
+<div class="education">
+                <h2>EDUCATION</h2>
+                <p>B. TECH - Holy Mary Institute of Technology and Science (2023)</p>
+                <p>Diploma in Civil Engineering - Nawab Shah Alam Khan College (2020)</p>
+            </div>
+
+            <h2>KEY SKILLS</h2>
+            <ul>
+                <li onclick="toggleDetails('skill1')">Project Management</li>
+                <div id="skill1" class="hidden"><p>Assist in filing and organizing project 					documents.
+					Coordinate between departments for project 					updates.
+					Maintain project schedules and track 						progress.
+					Help in preparing project meeting 						minutes.</p></div>
+                <li onclick="toggleDetails('skill2')">AutoCAD & CAD Software</li>
+                <div id="skill2" class="hidden"><p>Develop detailed 2D and 3D drawings with precise specifications.
+Ensure compliance with industry standards and company requirements.s
+Optimize designs for manufacturing, construction, or production.</p></div>
+
+                <li onclick="toggleDetails('skill3')">Project Scheduling & Tracking</li>
+                <div id="skill3" class="hidden"><p>Track project milestones and report progress.
+Coordinate with different departments for schedule updates.</p></div>
+                <li onclick="toggleDetails('skill4')">CAPEX Planning & Budgeting</li>
+                <div id="skill4" class="hidden"><p>Collect and organize financial data for capital expenditures.
+Assist in preparing budget comparison reports.
+Track CAPEX approvals and document revisions.
+Maintain records of purchased equipment and projects.</p></div>
+
+                <li onclick="toggleDetails('skill5')">Report Preparation</li>
+                <div id="skill5" class="hidden"><p>Help in formatting and structuring reports.
+Maintain records of daily and weekly project reports.</p></div>
+
+<li onclick="toggleDetails('skill6')">Technical Measurement & Hand Sketching</li>
+                <div id="skill6" class="hidden"><p>Creating hand sketches based on field measurements.
+Organize and label sketches properly for reference.</p></div>
+
+
+
+
+            </ul>
+             <h2>INTERESTS</h2>
+                <ul>
+                    <li>Project Management</li>
+                    <li>Sustainability Development</li>
+                    <li>Civil & Structural Drafting</li>
+                    <li>Travel</li>
+                </ul>
+	
+
+        </div>
+        <div class="main-content">
+            <h2>PROFILE</h2>
+            <p>Dedicated Planning and Development Trainee with hands-on experience in the paper manufacturing industry.Skilled in preparing technical drawings for spare parts and small construction works, including foundation locations based on equipment requirements. Proficient in coordinating project timelines, ensuring alignment with executive schedules, and managing daily reports to track progress and evaluating contractor statements to ensure cost-effective equipment procurement. I am com-mitted to supporting the development of plant infrastructure and contributing to the overall efficiency and success of plant projects. </p>
+ <div class="education">
+                
+            <div class="experience">
+                <h2>EXPERIENCE</h2>
+                <p>Planning and Development Trainee - SPM (JK Paper Ltd), Kagaznagar, India (May 2024 - Present)</p>
+                <ul>
+                    <li>Collaborated with cross-functional teams to streamline planning processes, ensuring seamless coordination and efficient execution. Focused on aligning project goals with organizational specifications, optimizing workflows, and enhancing overall project efficiency.</li>
+                    <li>Assisted in the preparation of project documentation, enhancing workflow efficiency through effective use of SAP and MS Office.</li>
+                    <li>Collaborated with teams to streamline planning processes.</li>
+<li>Engaged in AutoCAD drafting, creating detailed technical drawings and plans to support project development.</li>
+                </ul>
+                <p>Site Engineer (Intern) - DSL Infrastructure, Hyderabad (April 2020 - July 2020)</p>
+                <ul>
+                    <li>Coordinated daily site activities and ensured safety compliance.</li>
+<li>Conducted inspections, quality checks, and reported issues to engineers.</li>
+<li>Assisted in mobilizing workforce and resources for timely project execution.</li>
+
+                </ul>
+            </div>
+
+            <h2>PROJECTS</h2>
+            <ul>
+                <li onclick="toggleDetails('project1')">Conversion of Old Printed Drawings into AutoCAD Drawings</li>
+                <div id="project1" class="hidden"><p>Leveraged AutoCAD expertise and drawing interpretation skills to digitize old hand-traced prints into precise, editable AutoCAD files. This process involved carefully analyzing legacy drawings, ensuring accurate replication, and enhancing their clarity for future use. By converting hard copies into digital formats, accessibility and efficiency were significantly improved, allowing for seamless modifications, updates, and integration into ongoing planning and development projects. This digitization not only preserved valuable technical information but also streamlined future design processes by providing accurate and easily editable drawings.</p>
+</div>
+                <li onclick="toggleDetails('project2')">Vacuum Pump (VC) Installation</li>
+                <div id="project2" class="hidden"><p>Utilized my site survey and problem analysis skills to determine the optimal layout for the vacuum pump (VC) installation. Assessed site conditions, identified potential challenges, and developed a precise placement plan to ensure maximum efficiency and seamless integration. Coordinated with teams to execute the installation, ensuring all technical requirements were met. Focused on optimizing performance, resolving site-specific issues, and ensuring timely project completion while adhering to industry standards.</p></div>
+
+
+
+
+                <li onclick="toggleDetails('project3')">Headbox Installation (Commissioning)</li>
+                <div id="project3" class="hidden"><p>Assisted in planning and coordinating the headbox installation and commissioning, ensuring all components were accurately installed and functioned according to specifications. Worked closely with teams to troubleshoot issues, optimize performance, and verify system functionality, ensuring a smooth and efficient commissioning process.</p></div>
+
+
+
+
+ <li onclick="toggleDetails('project4')">Flooring & Partition Walls as Site Engineer (Intern) </li>
+                <div id="project4" class="hidden"><p>Managed basement flooring and partition wall construction, ensuring accurate leveling with a dumpy level and effective damp-proofing. Estimated materials, optimized costs, and supervised on-site work. Coordinated with designers and workers using my map and plan reading skills for precise execution. Prepared bills and reports, ensuring timely project completion with high-quality standards.</p></div>
+
+            </ul>
+	    <div class="declaration">
+                <h2>DECLARATION</h2>
+                <p>I affirm that the details provided above are accurate and reflect my professional expertise and experience. I am committed to upholding the highest standards of integrity, professionalism, and continuous learning in my career, contributing effectively to any organization I am part of.</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+     <!--document.addEventListener('contextmenu', event => event.preventDefault());-->
+</body>
+</html>
